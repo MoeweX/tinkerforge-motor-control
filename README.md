@@ -4,7 +4,7 @@ The DCMotorControl.java class makes it easy to control up to 3 (and a half) DC m
 
 ~~~~
 DCMotorControl motor = new DCMotorControl(SERVO_BRICK, PWM_PIN_1, PWM_PIN_2);
-motor.forward(100); // drive the motor forward with 100% speed
+motor.forward(100); // drive the motor forwards with 100% speed
 motor.stop();
 motor.backward(60); // drive the motor backwards with 60% speed
 motor.shutdown(); // shutdown the motor (and disable the servo pins)
