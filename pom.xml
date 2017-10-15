@@ -2,8 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.hasenburg</groupId>
+	<artifactId>tinkerforge-motor-control</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Drink Manager</name>
+	<name>Tinkerforge Motor Control</name>
 
 	<build>
 		<plugins>
@@ -26,5 +27,4 @@
 			<version>2.1.14</version>
 		</dependency>
 	</dependencies>
-	<artifactId>tinkerforge-motor-control</artifactId>
 </project>
